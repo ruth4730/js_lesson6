@@ -1,0 +1,169 @@
+#startImg
+{
+    width: 12vw;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-image:url(pictures/zoo.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.level
+{
+    display: none;
+    width: 15vw;
+}
+button
+{
+    display: inline-block;
+    padding:  20px 40px;
+    background-color: rgb(208, 107, 25);
+    border: 5px solid;
+    border-color: white;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 15vw;
+}
+.hidden{
+    display: none;
+}
+img{
+    display: inline-block;
+    width: 10vw;
+    padding: 2vw;
+    cursor: pointer;
+}
+#full{
+    position: fixed;
+    bottom: 0vh;
+}
+#score{
+    position: fixed;
+    right: 0.1vw;
+    top: 2.5vh;
+    width: 15vw;
+    padding: 0vw;
+}
+#text{
+    position: absolute;
+    right: 4.5vw;
+    top: 10vh;
+    transform: translate(-50%, -50%);
+    color: rgb(160, 96,25);
+    font-size: 40px;
+    font-family: 'yarden';
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#t{
+    position: fixed;
+    right:14.5vw;
+    top: 0.7vh;
+    width: 7vw;
+    padding: 0vw;
+}
+@font-face {
+    font-family: 'yarden';
+    src: url('pictures/yarden-bold-alefalefalef.otf') format('truetype');     
+    font-weight: normal; 
+    font-style: normal;
+}
+#gameOver{
+    width:23vw;
+    cursor: auto;
+}
+#finalScore{
+    position: absolute;
+    display: block;
+    top:48vh;
+    right: 45vw;
+    transform: translate(-50%, -50%);
+    font-size: 72px;
+    font-family: 'yarden';
+    color: rgb(205, 81, 58);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#top{
+    position: absolute;
+    display: block;
+    top:65vh;
+    right: 45vw;
+    transform: translate(-50%, -50%);
+    font-size: 72px;
+    font-family: 'yarden';
+    color: rgb(205, 81, 58);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#newGame{
+    position: absolute;
+    display: block;
+    top:85vh;
+    right: 36vw;
+    transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 1023.200px) and (max-height: 620px) 
+{
+    #text{
+        position: absolute;
+        right: 4vw;
+        top: 8.2vh;
+        transform: translate(-50%, -50%);
+        color: rgb(160, 96,25);
+        font-size: 25px;
+        font-family: 'yarden';
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    #gameOver{
+        width:29vw;
+        cursor: auto;
+    }
+    #finalScore{
+        position: absolute;
+        display: block;
+        top:48vh;
+        right: 42.5vw;
+        transform: translate(-50%, -50%);
+        font-size: 65px;
+        font-family: 'yarden';
+        color: rgb(205, 81, 58);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    #top{
+        position: absolute;
+        display: block;
+        top:65vh;
+        right: 43vw;
+        transform: translate(-50%, -50%);
+        font-size: 65px;
+        font-family: 'yarden';
+        color: rgb(205, 81, 58);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    img{
+        display: inline-block;
+        width: 14vw;
+        padding: 1vw;
+        cursor: pointer;
+    }
+    #newGame{
+        position: absolute;
+        display: block;
+        top:83vh;
+        right: 33vw;
+        transform: translate(-50%, -50%);
+    }
+}
